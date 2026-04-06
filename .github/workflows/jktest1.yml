@@ -33,7 +33,7 @@ jobs:
         run: mkdir -p jksecondfolder
         
       - name: Copy file from first folder to second folder
-        run: cp -r jkfirstfolder/ jksecondfolder/  
+        run: cp -r jkfirstfolder/ jksecondfolder/
                    
 
       # Runs a set of commands using the runners shell
