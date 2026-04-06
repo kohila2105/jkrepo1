@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Create a file under new folder
-        run: mkdir -p jkfirstfolder
+        run: mkdir -p $GITHUB_WORKSPACE/jkfirstfolder
              echo "Hello This is new file created here by jk" > jkfirstfolder/jknewfile.txt
       - name: Create a another folder
         run: mkdir -p jksecondfolder
